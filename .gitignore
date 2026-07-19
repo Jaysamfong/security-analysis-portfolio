@@ -1,0 +1,26 @@
+﻿# ===== OS files =====
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ===== Secrets / credentials (NEVER commit) =====
+.env
+.env.*
+*.pem
+*.key
+credentials.json
+secrets.json
+
+# ===== Editor / IDE =====
+.vscode/
+.idea/
+
+# ===== Logs & temp =====
+*.log
+*.tmp
+*.bak
+*.swp
+
+# ===== (Expand later when adding code) =====
+# Python:  __pycache__/  *.pyc  .venv/  venv/  .ipynb_checkpoints/
+# Node:    node_modules/  dist/  build/
